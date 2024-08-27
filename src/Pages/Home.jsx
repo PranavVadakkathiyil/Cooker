@@ -4,7 +4,7 @@ import axios from "axios";
 import IndexFind from "../Components/IndexFind";
 const Home = () => {
   const [url, seturl] = useState(
-    "https:/www.themealdb.com/api/json/v1/1/search.php?f=c"
+    "https://www.themealdb.com/api/json/v1/1/search.php?f=c"
   );
   const [item, setitem] = useState();
   const [show, setshow] = useState();
@@ -20,7 +20,7 @@ const Home = () => {
   //  seturl(`https:/www.themealdb.com/api/json/v1/1/search.php?f=${indexVal}`);
   //};
   const SearchItem = () => {
-    seturl(`https:/www.themealdb.com/api/json/v1/1/search.php?s=${search}
+    seturl(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}
 `)
 document.getElementById("Search").value = "";
 ;
